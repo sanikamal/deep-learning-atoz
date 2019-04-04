@@ -38,5 +38,5 @@ The development of NLP applications is challenging because computers traditional
 
 ## Contents
 
-1.[Scale Image Pixel Data](Scale_Image_Pixel_Data_for_Deep_Learning.ipynb)
-2.[A Gentle Guide to Deal with Text Data](a_gentle_guide_to_deal_with_text_data.ipynb)
+#### 1.[Scale Image Pixel Data](Scale_Image_Pixel_Data_for_Deep_Learning.ipynb)
+#### 2.[A Gentle Guide to Deal with Text Data](a_gentle_guide_to_deal_with_text_data.ipynb)
