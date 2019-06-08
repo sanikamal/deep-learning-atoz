@@ -9,7 +9,7 @@ Deep learning architectures such as `deep neural networks`, `deep belief network
 Humans use their eyes and their brains to see and visually sense the world around them. Computer vision is the science that aims to give a similar, if not better, capability to a machine or computer.
 
 Computer vision is concerned with the automatic extraction, analysis and understanding of useful information from a single image or a sequence of images(video). It involves the development of a theoretical and algorithmic basis to achieve automatic visual understanding.
-![Computer Vision](images/CV.jpg)
+![Computer Vision](images/computer_vision.jpg)
 
 The applications of computer vision are numerous and include:
 
