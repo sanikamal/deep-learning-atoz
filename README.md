@@ -2,7 +2,7 @@
 Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.
 
 Deep learning architectures such as `deep neural networks`, `deep belief networks` and `recurrent neural networks` have been applied to fields including `computer vision`, `speech recognition`, `natural language processing`, `audio recognition`, `social network filtering`, `machine translation`, `bioinformatics`, `drug design`, `medical image analysis`, material inspection and board game programs, where they have produced results comparable to and in some cases superior to human experts.
-![Deep Learning](images/deep-learning.jpg)
+![Deep Learning](images/deep.jpg)
 
 ## What is computer vision ?
 
@@ -10,6 +10,7 @@ Humans use their eyes and their brains to see and visually sense the world aroun
 
 Computer vision is concerned with the automatic extraction, analysis and understanding of useful information from a single image or a sequence of images(video). It involves the development of a theoretical and algorithmic basis to achieve automatic visual understanding.
 ![Computer Vision](images/CV.jpg)
+
 The applications of computer vision are numerous and include:
 
 * agriculture
