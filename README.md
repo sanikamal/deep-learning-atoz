@@ -39,7 +39,8 @@ Natural language processing (NLP) is the ability of a computer program to unders
 The development of NLP applications is challenging because computers traditionally require humans to "speak" to them in a programming language that is precise, unambiguous and highly structured, or through a limited number of clearly enunciated voice commands. Human speech, however, is not always precise -- it is often ambiguous and the linguistic structure can depend on many complex variables, including slang, regional dialects and social context.
 ![NLP](images/nlp.png)
 
-## Contents
+## Recurrent Neural Networks (RNNs)
+- [Approximating a sine Function](sine_function.ipynb)
 
 #### 1.[Scale Image Pixel Data](Scale_Image_Pixel_Data_for_Deep_Learning.ipynb)
 #### 2.[A Gentle Guide to Deal with Text Data](a_gentle_guide_to_deal_with_text_data.ipynb)
