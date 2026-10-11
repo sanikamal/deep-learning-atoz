@@ -23,6 +23,11 @@ A collection of various deep learning architectures, models, tips ,code snippets
 | Approximating a Sine Function | Fit a neural network to approximate `sin(x)` | TensorFlow | [Link](tf-basic/sine_function.ipynb) |
 | TensorFlow 2 Basic Operations | Introduction to TensorFlow 2 tensors and operations | TensorFlow | [Link](tf-basic/tf2_basic_operation.ipynb) |
 
+## Projects
+| Title | Description | Tool/Library | Link |
+|-------|-------------|--------------|------|
+| Binary Image Classifier (Cats vs Dogs) | Train a CNN to classify cat vs dog images, with train/validation split, metric plots, and single-image inference | PyTorch | [Link](projects/Binary_Image_Classifier_Cats_vs_Dogs.ipynb) |
+
 ## Functional API (code)
 - [MLP with the Functional API](code/mlp_functional_api.py)
 - [CNN with the Functional API](code/cnn_functional_api.py)
@@ -39,3 +44,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
+
+This collection builds on the work and documentation of the open-source deep learning community:
+
+- [PyTorch](https://pytorch.org/) — framework powering the notebooks in `pytorch-basic/`.
+- [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/) — used for the Functional API examples in `code/` and the `tf-basic/` notebooks.
+- [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), and [Matplotlib](https://matplotlib.org/) — for data handling and visualization.
+- [Project Jupyter](https://jupyter.org/) — the notebook environment used throughout.
+- The broader deep learning community for the tutorials, datasets, and reference material that inspired these examples.
