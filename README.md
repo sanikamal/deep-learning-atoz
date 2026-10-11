@@ -1,51 +1,41 @@
-# Deep Learning A to Z
-A collection of various deep learning architectures, models, tips ,code snippets, and mini projects for TensorFlow and PyTorch.
+# Deep Learning AtoZ
+A collection of various deep learning architectures, models, tips ,code snippets, and mini projects for TensorFlow and PyTorch. Includes topics like Computer Vision, Natural Language Processing (NLP), Recurrent Neural Networks (RNNs) and more.
 
-## What is Deep Learning?
-Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.
+## PyTorch Basics
+| Title | Description | Tool/Library | Link |
+|-------|-------------|--------------|------|
+| Linear Regression from Scratch | Build linear regression with raw tensors and autograd, then compare with `torch.nn` | PyTorch | [Link](pytorch-basic/Linear_Regression_from_Scratch_using_PyTorch.ipynb) |
+| Logistic Regression | Logistic regression classifier with PyTorch | PyTorch | [Link](pytorch-basic/Logistic_Regression_with_PyTorch.ipynb) |
+| Feedforward Neural Network | A basic feedforward neural network | PyTorch | [Link](pytorch-basic/pytorch_feedforward_neural_network.ipynb) |
+| Autograd | Automatic differentiation in PyTorch | PyTorch | [Link](pytorch-basic/Autograd.ipynb) |
+| Autograd with Tensors | Working with autograd on tensors | PyTorch | [Link](pytorch-basic/Autograd_with_tensors.ipynb) |
+| Optimizers | Overview of PyTorch optimizers | PyTorch | [Link](pytorch-basic/Optimizers.ipynb) |
+| CPU to GPU | Moving tensors and models between CPU and GPU | PyTorch | [Link](pytorch-basic/CPU_to_GPU.ipynb) |
+| Validation | Adding a validation loop to training | PyTorch | [Link](pytorch-basic/Validation.ipynb) |
+| Visualising Network Loss | Plotting and inspecting training loss | PyTorch | [Link](pytorch-basic/Visualising_the_network_loss.ipynb) |
+| Working with FMNIST | Training on the Fashion-MNIST dataset | PyTorch | [Link](pytorch-basic/Working_with_the_FMNIST_dataset.ipynb) |
+| Troubleshooting | Common issues and fixes | PyTorch | [Link](pytorch-basic/Troubleshooting.ipynb) |
+| PyTorch Playground | Scratch space for experiments | PyTorch | [Link](pytorch-basic/PyTorch_Playground.ipynb) |
 
-Deep learning architectures such as `deep neural networks`, `deep belief networks` and `recurrent neural networks` have been applied to fields including `computer vision`, `speech recognition`, `natural language processing`, `audio recognition`, `social network filtering`, `machine translation`, `bioinformatics`, `drug design`, `medical image analysis`, material inspection and board game programs, where they have produced results comparable to and in some cases superior to human experts.
-![Deep Learning](images/deep.jpg)
+## TensorFlow Basics
+| Title | Description | Tool/Library | Link |
+|-------|-------------|--------------|------|
+| Approximating a Sine Function | Fit a neural network to approximate `sin(x)` | TensorFlow | [Link](tf-basic/sine_function.ipynb) |
+| TensorFlow 2 Basic Operations | Introduction to TensorFlow 2 tensors and operations | TensorFlow | [Link](tf-basic/tf2_basic_operation.ipynb) |
 
-## What is computer vision ?
-
-Humans use their eyes and their brains to see and visually sense the world around them. Computer vision is the science that aims to give a similar, if not better, capability to a machine or computer.
-
-Computer vision is concerned with the automatic extraction, analysis and understanding of useful information from a single image or a sequence of images(video). It involves the development of a theoretical and algorithmic basis to achieve automatic visual understanding.
-![Computer Vision](images/computer_vision.jpg)
-
-The applications of computer vision are numerous and include:
-
-* agriculture
-* augmented reality
-* autonomous vehicles
-* biometrics
-* character recognition
-* forensics
-* industrial quality inspection
-* face recognition
-* gesture analysis
-* geoscience
-* image restoration
-* medical image analysis
-* pollution monitoring
-* process control
-* remote sensing
-* robotics
-* security and surveillance
-* transport
-
-
-## What is Natural Language Processing (NLP) ?
-Natural language processing (NLP) is the ability of a computer program to understand human language as it is spoken. NLP is a component of artificial intelligence (AI).
-
-The development of NLP applications is challenging because computers traditionally require humans to "speak" to them in a programming language that is precise, unambiguous and highly structured, or through a limited number of clearly enunciated voice commands. Human speech, however, is not always precise -- it is often ambiguous and the linguistic structure can depend on many complex variables, including slang, regional dialects and social context.
-![NLP](images/nlp.png)
-
-## Recurrent Neural Networks (RNNs)
-- [Approximating a sine Function](sine_function.ipynb)
-- [Tensorflow 2 Basic Operation](tf2_basic_operation.ipynb)
+## Functional API (code)
+- [MLP with the Functional API](code/mlp_functional_api.py)
+- [CNN with the Functional API](code/cnn_functional_api.py)
+- [LSTM with the Functional API](code/lstm_functional_api.py)
 
 ## Other
-- [Scale Image Pixel Data](Scale_Image_Pixel_Data_for_Deep_Learning.ipynb)
-- [Guide to Deal with Text Data](a_gentle_guide_to_deal_with_text_data.ipynb)
+- [Scale Image Pixel Data](notebook/Scale_Image_Pixel_Data_for_Deep_Learning.ipynb)
+- [Guide to Deal with Text Data](notebook/a_gentle_guide_to_deal_with_text_data.ipynb)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
