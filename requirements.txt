@@ -1,0 +1,15 @@
+# Deep learning frameworks
+tensorflow
+torch
+torchvision
+
+# Numerical / data handling
+numpy
+pandas
+
+# Visualization
+matplotlib
+
+# Notebook environment
+jupyter
+notebook
